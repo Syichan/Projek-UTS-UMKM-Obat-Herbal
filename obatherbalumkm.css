@@ -1,0 +1,455 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-image: url(https://ditwasotsk.pom.go.id/media/a6734910-1eb6-44d1-8624-eacde39b608d);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    flex-grow: 1;
+    padding: 0px;
+}
+header{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-image: url(https://fkes.unusa.ac.id/wp-content/uploads/2022/11/Herbal-Medicine-MX-680x340-1440545288.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Times New Roman;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header img.logo{
+    margin-top: 0%;
+    width: 15vh;
+    border-radius: 100%;
+    flex-wrap: wrap;
+}
+
+header h1{
+    margin-left: 3%;
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1em;
+    padding: 1%;
+}
+nav.navigasi{
+    margin: 0;
+    padding: 20px 30px;
+}
+.navbar{
+    color: aquamarine;
+}
+nav ul{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    word-spacing: 12%;
+    display: flex;
+    gap: 9%;
+    flex-grow: 1;
+}
+nav li{
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0,0,0, 0.3);
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
+    transition: all 0.75s ease-in-out;
+}
+li:hover, li:focus{
+    color: rgb(255, 255, 255);
+    background: #fff; /* rgba backup */
+    background: rgba(255,255,255, 0.2);
+    padding: 20px;
+    -webkit-border-radius: 4px; /* safari & chrome */
+    -moz-border-radius: 4px; /* firefox */
+    border-radius: 4px; /* futureproof */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.container2{
+    background-color: #9BC388;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.container2:hover{
+    transition: all 0.75s ease-in-out;
+    margin: 2%;
+    box-shadow: 0.5px 0.5px 5px 5px rgb(255, 255, 255, 0.50) ;
+}
+.image img{
+    width: 50vh;
+    height: 50vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+.about p{
+    font-size: 10pt;
+    padding: 1%;
+    margin: 1%;
+}
+
+.container3{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5%;
+}
+img.center{
+    filter: drop-shadow(2px 2px 2px #fff3f3);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+div.kartu1{
+    background: rgb(255, 228, 196);
+    width: 30%;
+    height: 20%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+    color:  rgb(0, 169, 6) ;
+}
+div.kartu1 p{
+    font-size: 9pt;
+    text-align: center;
+}
+
+div.kartu2{
+    background: rgb(255, 228, 196);
+    width: 30%;
+    height: 20%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+    color:  rgb(0, 169, 6) ;
+}
+div.kartu2 p{
+    font-size: 10pt;
+    text-align: center;
+}
+div.kartu2:hover{
+    transition: all 0.75s ease-in-out;
+    margin: 1%;
+}
+div.kartu3{
+    background: rgb(255, 228, 196);
+    width: 30%;
+    height: 20%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+    color:  rgb(0, 169, 6) ;
+}
+div.kartu3 p{
+    font-size: 10pt;
+    text-align: center;
+}
+
+div.container3  p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.kotak1{
+    flex-direction: column;
+}
+.badan{
+    width: 880px;
+    margin: 35px auto;
+    
+    padding: 20px;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+@media screen and (max-width: 768px) {
+
+    .navigasi ul {
+        display: flex;
+        gap: 3%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+.badan h2{
+    color: crimson;
+    border-bottom: 1px solid gainsboro;
+    margin: 5px;
+    margin-bottom: 13px;
+}
+ 
+.list-produk{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    margin: 5px;
+}
+ 
+.list-produk:hover{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+ 
+.list-produk img{
+    width: 100%;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.list-produk h4, .list-produk h5{
+    color: crimson;
+    text-align: center;
+    margin-bottom: 5px;
+}
+div.katalog{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-content: center;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+} 
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.penawaran h2{
+    background-color: bisque;
+    padding: 10%;
+    color: rgb(0, 169, 6) ;
+    justify-content: center;
+    text-align: center;
+}
+.text-center{
+	color:#ff4e4e;	
+	text-transform:uppercase;
+    font-size: 23px;
+    display: block;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=greek-ext');
+
+.bg{
+	background-image: url("https://fkes.unusa.ac.id/wp-content/uploads/2022/11/Herbal-Medicine-MX-680x340-1440545288.jpg");
+	background-position: center;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height: 50vh;
+	font-family: 'Noto Sans', sans-serif;
+}
+.text-center{
+    margin-bottom: 5%;
+	color:#fff;	
+	text-transform:uppercase;
+    font-size: 23px;
+    text-shadow: 2px 2px 4px #000000;
+    display: block;
+    text-align: center;
+}
+.box{
+	position: relative;
+	margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(0, 0, 0, 0.50);
+	top:50%;
+    bottom: 50%;
+	padding: 100px 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#fff;	
+    pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+.btn{
+	color:#fff;
+	background-color:#e74c3c;
+	outline: none;
+    border: 0;
+    color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	float: left;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+}
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+}
+p.text-center{
+    float: left;
+    margin-top: 15%;
+    margin-bottom: 5%;
+	color:#fff;	
+	text-transform:uppercase;
+    font-size: 10px;
+    text-shadow: 2px 2px 4px #000000;
+    display: block;
+    text-align: center;
+}
+div.kontak{
+    background-color: darkgreen;
+}
+div.social-icons{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.fa {
+    width: 10%;
+    font-size: 100px;
+    text-decoration: none;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    color: white;
+}
+.fa-instagram {
+    color: white;
+}
+.fa-whatsapp {
+    color: white;
+}
+div.profil-pengembang{
+    padding: 5%;
+    background-color: blanchedalmond;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.identitas{
+    text-align: center;
+    font-size: 15pt;
+}
+.identitas p:hover{
+    transition: all 0.75s ease-in-out;
+    font-size: 20pt;
+}
+.identitas h3:hover{
+    transition: all 0.75s ease-in-out;
+    font-size: 20pt;
+}
+h3.pengembang{
+   text-align: center;
+   font-size: 30pt;
+}
+h3.pengembang:hover{
+    transition: all 0.75s ease-in-out;
+    font-size: 35pt;
+}
+div.profil-pengembang img{
+    flex: none;
+    border-radius: 100%;
+    width: 15%;
+    margin: 3%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.profil-pengembang img:hover{
+    transition: all 0.75s ease-in-out;
+    width: 20%;
+}
